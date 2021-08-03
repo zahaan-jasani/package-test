@@ -1,10 +1,10 @@
 {
-  "name": "@zahaan-j/package-test",
+  "name": "@zahaan-jasani/package-test",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "exit 0"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/zahaan-jasani/package-test/issues"
   },
-  "homepage": "https://github.com/zahaan-jasani/package-test#readme"
+  "homepage": "https://github.com/zahaan-jasani/package-test#readme",
+  "publishConfig": {
+    "@zahaan-jasani:registry": "https://npm.pkg.github.com"
+  }
 }
